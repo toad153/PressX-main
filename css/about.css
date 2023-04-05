@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NAVBAR */
+.navbar {
+    box-shadow: 0px 3px 2px #dbdbdb;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 5px;
+}
+
+.navbar-brand img {
+    width: 90px;
+    padding: 5px 5px;
+}
+
+.navbar-toggler {
+    margin: 10px;
+    border-style: none;
+}
+
+.navbar-toggler:hover {
+    border-style: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item {
+    padding: 5px 5px;
+}
+
+.nav-item button {
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #007e8f;
+    border: none;
+    box-shadow: #191916;
+}
+
+/* Sections */
+
+.coloured{
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 12vh;
+    background-color: #f6df0f;
+}
+
+
+/* Heading Section */
+
+.heading h1{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Content Section */
+
+.content{
+    font-size: 18px;
+    margin: 5vh 10vw;
+}
+
+.content p{
+    padding: 20px 0px;
+}
+
+.main-clouds{
+    padding-top: 50px;
+    margin-top: 50px;
+}

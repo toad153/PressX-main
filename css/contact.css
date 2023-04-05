@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+.main-clouds {
+  margin-left: 20em;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.content {
+  background-color: #d4e8ee;
+  height: 30em;
+  width: 50em;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+}
+
+.main-clouds .clouds {
+  border-radius: 50%;
+  position: absolute;
+  background: #71b4d0;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  box-shadow:
+    #71b4d0 55px -10px 0 -5px,
+    #71b4d0 15px -20px,
+    #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px,
+    #71b4d0 85px 5px 0 -5px;
+
+}
+
+.main-clouds .cloud1 {
+  background: #a4ccd9;
+  box-shadow:
+    #a4ccd9 55px -10px 0 -5px,
+    #a4ccd9 15px -20px,
+    #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px,
+    #a4ccd9 85px 5px 0 -5px,
+    #b3c4c9 20px 0px 35px 5px;
+  top: 170px;
+  left: 720px;
+  transform: rotate(357deg);
+}
+
+.main-clouds .cloud2 {
+  top: 90px;
+  left: 540px;
+  transform: rotate(357deg);
+  background: #40a6bd;
+  box-shadow:
+    #40a6bd 55px -10px 0 -5px,
+    #40a6bd 15px -20px,
+    #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px,
+    #40a6bd 85px 5px 0 -5px,
+    #b3c4c9 20px 0px 35px 10px;
+}
+
+.main-clouds .cloud3 {
+  top: 300px;
+  left: 440px;
+  transform: rotate(357deg);
+  background: #a4ccd9;
+  box-shadow:
+    #a4ccd9 55px -10px 0 -5px,
+    #a4ccd9 15px -20px,
+    #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px,
+    #a4ccd9 85px 5px 0 -5px,
+    #b3c4c9 25px 0px 35px 5px;
+}
+
+.main-clouds .cloud4 {
+  top: 380px;
+  left: 680px;
+  transform: rotate(357deg);
+  background: #40a6bd;
+  box-shadow:
+    #40a6bd 55px -10px 0 -5px,
+    #40a6bd 15px -20px,
+    #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px,
+    #40a6bd 85px 5px 0 -5px,
+    #b3c4c9 20px 0px 35px 10px;
+}
+
+.main-clouds .cloud5 {
+  top: 450px;
+  left: 340px;
+  transform: rotate(357deg);
+  background: #a4ccd9;
+  box-shadow:
+    #a4ccd9 55px -10px 0 -5px,
+    #a4ccd9 15px -20px,
+    #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px,
+    #a4ccd9 85px 5px 0 -5px,
+    #b3c4c9 25px 10px 35px 10px;
+}
+
+.main-clouds .cloud6 {
+  top: 5px;
+  left: 310px;
+  transform: rotate(340deg);
+  background: #a4ccd9;
+  box-shadow:
+    #a4ccd9 55px -10px 0 -5px,
+    #a4ccd9 15px -20px,
+    #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px,
+    #a4ccd9 85px 5px 0 -5px,
+    #b3c4c9 35px -15px 35px 10px;
+}
+
+.main-clouds .cloud7 {
+  top: 180px;
+  left: 280px;
+  transform: rotate(357deg);
+  background: #71b4d0;
+  box-shadow:
+    #71b4d0 55px -10px 0 -5px,
+    #71b4d0 15px -20px,
+    #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px,
+    #71b4d0 85px 5px 0 -5px,
+    #b3c4c9 10px -10px 35px 5px;
+}
+
+.main-clouds .cloud8 {
+  top: 50px;
+  left: 40px;
+  transform: rotate(357deg);
+  background: #71b4d0;
+  box-shadow:
+    #71b4d0 55px -10px 0 -5px,
+    #71b4d0 15px -20px,
+    #71b4d0 30px 10px,
+    #71b4d0 60px 15px 0 -10px,
+    #71b4d0 85px 5px 0 -5px,
+    #b3c4c9 25px -10px 35px 5px;
+}
+
+.main-clouds .cloud9 {
+  top: 250px;
+  left: -100px;
+  transform: rotate(357deg);
+  background: #a4ccd9;
+  box-shadow:
+    #a4ccd9 55px -10px 0 -5px,
+    #a4ccd9 15px -20px,
+    #a4ccd9 30px 10px,
+    #a4ccd9 60px 15px 0 -10px,
+    #a4ccd9 85px 5px 0 -5px,
+    #b3c4c9 10px 0px 45px 5px;
+}
+
+.main-clouds .cloud10 {
+  top: 400px;
+  left: 50px;
+  transform: rotate(357deg);
+  background: #40a6bd;
+  box-shadow:
+    #40a6bd 55px -10px 0 -5px,
+    #40a6bd 15px -20px,
+    #40a6bd 30px 10px,
+    #40a6bd 60px 15px 0 -10px,
+    #40a6bd 85px 5px 0 -5px,
+    #b3c4c9 20px 10px 45px 10px;
+
+}
+
+.main-clouds .text-content {
+  width: 100%;
+  margin: 1em auto;
+  /* padding-top: 2em;
+  padding-left: 5em; */
+
+}
+
+.main-clouds .input-text {
+  width: 50%;
+  height: 2em;
+  padding: 1.5rem;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.main-clouds p {
+  margin: 0px;
+  padding-left: 2%;
+}
+
+.main-clouds .email {
+  padding-top: 2%;
+}
+
+.main-clouds .full_name {
+  padding-top: 4%;
+}
+
+.main-clouds .button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 2em;
+  margin: 2em 15em;
+}
+
+.main-clouds button {
+  padding-top: 1em;
+  padding-left: 7em;
+  padding-bottom: 1em;
+  padding-right: 7em;
+  background-color: #f6df0f;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: -2px 2px 5px rgb(112, 108, 108);
+  color: white;
+  font-weight: 700;
+}
+
+.main-clouds h1,
+h4,
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+.main-clouds h1 {
+  font-size: 60px;
+}
+
+.main-clouds p {
+  font-size: 20px;
+}
+
+/* .main-clouds span {
+  color: white;
+} */
+
+@keyframes move {
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@media only screen and (max-width: 620px) {
+
+  /* For mobile phones: */
+  .main-clouds .content {
+    width: 95%;
+  }
+
+  .main-clouds .text-content {
+    width: 80vw;
+    padding-top: 1em;
+    padding-left: 2.5em;
+  }
+
+  .main-clouds .text {
+    font-size: small;
+  }
+
+  .main-clouds button {
+    padding-top: 0.5em;
+    padding-left: 2.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2.5em;
+  }
+
+
+  .main-clouds h1,
+  h4,
+  p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  .main-clouds h1 {
+    font-size: 35px;
+  }
+
+  .main-clouds h4 {
+    font-size: 20px;
+  }
+
+  .main-clouds p {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 376px) {
+
+
+  .main-clouds .clouds {
+    border-radius: 50%;
+    position: absolute;
+    background: #71b4d0;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    box-shadow:
+      #71b4d0 55px -10px 0 -5px,
+      #71b4d0 15px -20px,
+      #71b4d0 30px 10px,
+      #71b4d0 60px 15px 0 -10px,
+      #71b4d0 85px 5px 0 -5px,
+      #b3c4c9 20px 0px 35px 5px;
+
+
+  }
+
+  .main-clouds .cloud5 {
+    top: 450px;
+    left: 50px;
+    transform: rotate(350deg);
+  }
+
+  .main-clouds .cloud7 {
+    top: 100px;
+    left: 220px;
+    transform: rotate(357deg);
+  }
+
+  .main-clouds .cloud8 {
+    top: 200px;
+    left: 10px;
+    transform: rotate(350deg);
+  }
+
+  .main-clouds .cloud9 {
+    top: 15px;
+    left: -15px;
+    transform: rotate(335deg);
+  }
+
+  .main-clouds .cloud10 {
+    top: 300px;
+    left: 250px;
+    transform: rotate(350deg);
+  }
+
+  .main-clouds .cloud1 .cloud2 .cloud3 .cloud4 .cloud6 {
+    height: 0px;
+    width: 0px;
+  }
+
+
+}
