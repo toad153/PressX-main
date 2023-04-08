@@ -59,7 +59,13 @@
 }
 
 .machinePic {
-    padding: 15% 15%;
+    width: 100%;
+    padding: 10% 15%;
+}
+
+.smallPic{
+    width: 50%;
+    margin-left: 25%;
 }
 
 .heading {
@@ -82,13 +88,6 @@
 .main_circle_page1 {
     height: 120vh;
     /* background-color: red; */
-}
-
-.circle {
-    /* height: 100vh; */
-    width: 99vw;
-    position: absolute;
-    overflow: hidden;
 }
 
 .circle {
@@ -170,8 +169,8 @@
 }
 
 .rectangle {
-    height: 70%;
-    width: 99vw;
+    height: 80%;
+    width: 100%;
     position: absolute;
     background-color: yellow;
     top: 30%;
@@ -296,7 +295,7 @@
     width: 50px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 420%;
+    top: 435%;
     right: 10%;
 }
 
@@ -307,7 +306,7 @@
     width: 40px;
     background-color: #f6df0f;
     border-radius: 50%;
-    top: 340%;
+    top: 355%;
     left: 10%;
 }
 
@@ -318,7 +317,7 @@
     width: 50px;
     background-color: #40a6bd;
     border-radius: 50%;
-    top: 350%;
+    top: 365%;
     left: 30%;
 }
 
@@ -329,7 +328,7 @@
     width: 150px;
     background-color: #89bfce;
     border-radius: 50%;
-    top: 270%;
+    top: 277%;
     left: 15%;
 }
 
@@ -340,18 +339,18 @@
     width: 100px;
     background-color: #40a6bd;
     border-radius: 50%;
-    top: 327%;
+    top: 342%;
     left: 45%;
 }
 
 .choose_us_circle7 {
     position: absolute;
     z-index: -1;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 285%;
+    top: 290%;
     left: 60%;
 }
 
@@ -362,7 +361,7 @@
     width: 200px;
     background-color: #fee1d9;
     border-radius: 50%;
-    top: 360%;
+    top: 375%;
     left: 12%;
 }
 
@@ -384,8 +383,8 @@
     width: 50px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 430%;
-    left: 1%;
+    top: 435%;
+    left: 5%;
 }
 
 .choose_us_circle11 {
@@ -395,7 +394,7 @@
     width: 50px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 490%;
+    top: 505%;
     left: 60%;
 }
 
@@ -406,7 +405,7 @@
     width: 70px;
     background-color: #40a6bd;
     border-radius: 50%;
-    top: 395%;
+    top: 390%;
     left: 45%;
 }
 
@@ -417,7 +416,7 @@
     width: 100px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 250%;
+    top: 270%;
     left: 85%;
 }
 
@@ -428,7 +427,7 @@
     width: 150px;
     background-color: #f6df0f;
     border-radius: 50%;
-    top: 435%;
+    top: 445%;
     left: 55%;
 }
 
@@ -439,7 +438,7 @@
     width: 350px;
     background-color: #ffecd3;
     border-radius: 50%;
-    top: 450%;
+    top: 465%;
     left: 65%;
 }
 
@@ -450,7 +449,7 @@
     width: 250px;
     background-color: #89bfce;
     border-radius: 50%;
-    top: 455%;
+    top: 470%;
     left: 46%;
 }
 
@@ -461,7 +460,7 @@
     width: 50px;
     background-color: #f6df0f;
     border-radius: 50%;
-    top: 510%;
+    top: 520%;
     left: 2%;
 }
 
@@ -472,7 +471,7 @@
     width: 120px;
     background-color: #f6df0f;
     border-radius: 50%;
-    top: 526%;
+    top: 536%;
     left: 65%;
 }
 
@@ -483,7 +482,7 @@
     width: 100px;
     background-color: #ffecd3;
     border-radius: 50%;
-    top: 505%;
+    top: 515%;
     left: 50%;
 }
 
@@ -494,7 +493,7 @@
     width: 150px;
     background-color: #40a6bd;
     border-radius: 50%;
-    top: 587%;
+    top: 607%;
     left: 80%;
 }
 
@@ -505,29 +504,29 @@
     width: 150px;
     background-color: #40a6bd;
     border-radius: 50%;
-    top: 500%;
-    left: 80%;
+    top: 515%;
+    left: 82%;
 }
 
 .choose_us_circle22 {
     position: absolute;
     z-index: -1;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     background-color: #bbd9e3;
     border-radius: 50%;
-    top: 565%;
-    left: 51%;
+    top: 563%;
+    left: 45%;
 }
 
 .choose_us_circle23 {
     position: absolute;
     z-index: -1;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     background-color: #f6df0f;
     border-radius: 50%;
-    top: 587%;
+    top: 597%;
     left: 61%;
 }
 
@@ -602,7 +601,7 @@ p {
 
 .main-stories {
     height: max-content;
-    background-color: #f4f9fb;
+    background-color: #fff;
 }
 
 .main-stories header {
@@ -880,6 +879,11 @@ p {
 
     .nav-item {
         padding: 4vh;
+    }
+
+    .smallPic{
+        width: 50%;
+        margin-left: 25%;
     }
 
     .carouselInfo {
@@ -1192,8 +1196,8 @@ p {
         width: 125px;
         background-color: #40a6bd;
         border-radius: 50%;
-        top: 810%;
-        left: 65%;
+        top: 775%;
+        left: 64%;
     }
 
     .choose_us_circle22 {
@@ -1213,7 +1217,7 @@ p {
         width: 70px;
         background-color: #f6df0f;
         border-radius: 50%;
-        top: 785%;
+        top: 788%;
         left: 5%;
     }
 
