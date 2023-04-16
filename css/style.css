@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-body{
-    font-family: 'Quicksand', sans-serif;
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
 * {
@@ -99,7 +99,7 @@ body{
 
 .circle {
   height: 120vh;
-  width: 99vw;
+  width: 100vw;
   position: absolute;
   overflow: hidden;
 }
@@ -182,10 +182,11 @@ body{
 }
 
 .rectangle {
+  width: 100%;
   padding-top: 10px;
-  padding-bottom: 180px;
+  padding-bottom: 300px;
   /* z-index: 999; */
-  position: static;
+  position: absolute;
   background-color: yellow;
   margin-top: 20%;
 }
@@ -268,10 +269,14 @@ body{
 
 .featureText {
   text-align: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 0px 20px;
+  margin: 5px 20px;
   color: #2b2020;
   position: relative;
+}
+
+.featureText h1{
+  font-weight: 600;
 }
 
 .carousel-item {
@@ -287,7 +292,7 @@ body{
   text-align: left;
   padding: 70px 50px 10px 10px;
   margin: 10px;
-  color: #fff;
+  color: #000;
   z-index: 5;
 }
 
@@ -599,6 +604,7 @@ body{
 }
 
 .choose_us-main h1,
+h5,
 p {
   padding: 10px;
 }
@@ -831,7 +837,7 @@ p {
     text-align: center;
     padding: 10px;
     margin: 10px;
-    color: #fff;
+    color: #000;
   }
 
   .carousalImg {
@@ -847,7 +853,7 @@ p {
     width: 70%;
     text-align: center;
     margin: 10px;
-    color: #fff;
+    color: #000;
   }
 
   .carouselInfo h5 {
@@ -864,6 +870,7 @@ p {
 @media (max-width: 426px) {
   .content {
     padding: 5% 15%;
+    text-align: center;
   }
 
   .navbar {
@@ -886,8 +893,8 @@ p {
   }
 
   .carouselInfo {
-    margin: 20px auto;
-    color: #fff;
+    margin: 10px auto;
+    color: #000;
   }
 
   .carousalImg {
@@ -910,7 +917,7 @@ p {
     text-align: center;
   }
 
-  .text h1{
+  .text h1 {
     font-weight: 700;
   }
 
@@ -933,6 +940,7 @@ p {
   }
 
   .choose_us-main h1,
+  h5,
   p {
     width: 100%;
     text-align: center;
@@ -1060,7 +1068,7 @@ p {
   }
 
   .choose_us-main h1,
-  p {
+  h5 p {
     width: 100%;
     text-align: center;
     padding: 10px;
