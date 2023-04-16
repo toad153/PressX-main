@@ -56,7 +56,7 @@
 
 /* Sections */
 
-.coloured{
+.coloured {
     /* padding-top: 20px; */
     width: 100%;
     height: 12vh;
@@ -66,28 +66,28 @@
 
 /* Heading Section */
 
-.heading h1{
+.heading h1 {
     padding: 20px 10px;
     text-align: center;
 }
 
 /* Content Section */
 
-.content{
+.content {
     font-size: 18px;
     margin: 5vh 10vw;
 }
 
-.content p{
+.content p {
     padding: 20px 0px;
 }
 
-.main-clouds{
+.main-clouds {
     padding-top: 50px;
     margin-top: 50px;
 }
 
-header{
+header {
     text-align: center;
 }
 
@@ -193,7 +193,7 @@ section::after {
 }
 
 @media only screen and (max-width: 426px) {
-    h1{
+    h1 {
         text-align: left;
         margin-left: 5%;
     }
@@ -211,10 +211,43 @@ section::after {
         visibility: visible;
     } */
 
+    .navbar {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .nav-item {
+        padding: 4vh;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    }
+
+    .nav-item:hover {
+        color: #191916;
+    }
+
+    .main-stories .row {
+        width: 95%;
+        margin: auto;
+    }
+
+    .logo1 {
+        text-align: center;
+    }
+
+    .download-main {
+        display: flex;
+        text-align: center;
+    }
+
+    .row{
+        margin: 5px 10px;
+    }
+
 }
 
-@media only screen and (max-width: 769px) and (min-width: 426px){
-    h1{
+@media only screen and (max-width: 769px) and (min-width: 426px) {
+    h1 {
         text-align: left;
         margin-left: 20%;
     }

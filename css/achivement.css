@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+.main-achive{
+    height: 10em;
+    background-color: #fff;
+}
+
+.achive-heading{
+    padding-top:4rem ;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.main-achive h1, p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.achive-heading h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.achive-heading p{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.achive-row{
+    width: 70vw;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    margin-top:5%;
+}
+
+.achive-photo{
+    text-align: center;
+    
+}
+
+.achiveImg{
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: -5px 0px 15px rgb(117, 115, 115);
+}
+
+.achive{
+    /* background-color: beige; */
+    padding: 8% 2%;
+
+}
+
+.achive-title{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2%;
+}
+
+.achive-text{
+    width: 80%;
+    padding: 2%;
+}
+
+.text p{
+    font-weight:400;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 426px) {
+*{
+    margin: 0;
+    padding: 0;
+}
+    .achive-heading{
+        width: 80%;
+    }
+
+    .achive-heading h1{
+        font-weight: 700;
+        font-size: 40px;
+        
+    }
+        
+    .achive-heading p{
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+
+    .achive-row{
+        width: 95%;
+        margin: 2%;
+    }
+   
+    .achiveImg{
+        margin-top: 0%;
+        border-radius: 10px;
+        box-shadow: 1px 0px 10px rgb(117, 115, 115);
+
+    }
+    
+    .achive{
+        width: 70%;
+        margin: auto;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+
+    .achive-title{
+        font-size: 20px;
+    }
+   
+    .achive-text{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 426px) {
+    .achive-row{
+        margin-top: 10%;
+    }
+   
+    .achiveImg{
+        border-radius: 10px;
+        box-shadow: 2px 0px 10px rgb(117, 115, 115);
+    }
+    
+    .achive{
+        width: 85%;
+        margin: auto;
+        padding-top: 5%;
+        padding-left: 5%;
+
+    }
+
+    .achive-title{
+        font-size: 35px;
+    }
+    .achive-text{
+        width: 95%;
+        font-size: 25px;
+    }
+}
