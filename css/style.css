@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -616,7 +622,7 @@ p {
 
 .main-stories h1,
 p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .main-stories header h1 {
@@ -1038,7 +1044,7 @@ p {
   /* Why Choose Us */
 
   .choose_us-main {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
     width: 100%;
     padding: 10px;
   }
