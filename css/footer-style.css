@@ -143,4 +143,18 @@ a:hover {
     /* padding-right: 15%; */
     padding-bottom: 15%;
   }
+
+  .logo1 {
+    text-align: center;
+  }
+
+  .download-main {
+    display: flex;
+    text-align: center;
+  }
+
+  .row {
+    margin: 5px 10px;
+}
+
 }
