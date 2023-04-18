@@ -99,9 +99,18 @@ section::after {
     font-weight: 600;
 }
 
+h2{
+    font-size: 26px;
+}
+
 h3{
-    font-size: 20px;
-    padding: 0px 10px;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+.founderDesp{
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .container .card .content {
@@ -146,6 +155,15 @@ h3{
 
     .container .card{
         height: 415px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+        padding: 0px 15px;
     }
 
 }
