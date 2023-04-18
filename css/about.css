@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-body{
+body {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -10,87 +10,7 @@ body{
     box-sizing: border-box;
 }
 
-
-/* NAVBAR */
-.navbar {
-    z-index: 1;
-    box-shadow: 0px 3px 2px #dbdbdb;
-    background-color: #fff;
-}
-
-.navbar-nav {
-    font-size: 20px;
-    font-weight: 500;
-    padding: 5px 5px;
-}
-
-.navbar-brand img {
-    width: 90px;
-    padding: 5px 5px;
-}
-
-.navbar-toggler {
-    margin: 10px;
-    border-style: none;
-}
-
-.navbar-toggler:hover {
-    border-style: none;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.nav-item {
-    padding: 5px 5px;
-}
-
-.nav-item button {
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    color: #fff;
-    background-color: #007e8f;
-    border: none;
-    box-shadow: #191916;
-}
-
-/* Sections */
-
-.coloured {
-    /* padding-top: 20px; */
-    width: 100%;
-    height: 12vh;
-    background-color: #f6df0f;
-}
-
-
-/* Heading Section */
-
-.heading h1 {
-    padding: 20px 10px;
-    text-align: center;
-}
-
-/* Content Section */
-
-.content {
-    font-size: 18px;
-    margin: 5vh 10vw;
-}
-
-.content p {
-    padding: 20px 0px;
-}
-
-.main-clouds {
-    padding-top: 50px;
-    margin-top: 50px;
-}
-
-header {
+header{
     text-align: center;
 }
 
@@ -113,6 +33,7 @@ section::before {
     height: 100%;
     background: rgba(255, 255, 71, 0.884);
     clip-path: circle(55% at 100% -20%);
+    z-index: -10;
 }
 
 section::after {
@@ -138,7 +59,7 @@ section::after {
 .container .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 425px;
     margin: 20px 40px;
     display: flex;
     justify-content: center;
@@ -165,17 +86,22 @@ section::after {
 
 .container .card .imgBox img {
     max-width: 100%;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     transition: 0.5s ease-in-out;
 }
 
 .container .card:hover .imgBox img {
-    transform: translate(-20px, -20px) rotate(-360deg) scale(1.3);
+    transform: translate(-0px, -20px) rotate(-360deg) scale(1);
 }
 
 .container .card .imgBox h2 {
     color: black;
     font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+    padding: 0px 10px;
 }
 
 .container .card .content {
@@ -196,7 +122,7 @@ section::after {
 }
 
 @media only screen and (max-width: 426px) {
-    h1 {
+    h1{
         text-align: left;
         margin-left: 5%;
     }
@@ -214,43 +140,18 @@ section::after {
         visibility: visible;
     } */
 
-    .navbar {
-        width: 100%;
-        text-align: center;
-        font-size: 22px;
+    .content{
+        padding: 5px;
     }
 
-    .nav-item {
-        padding: 4vh;
-        border-bottom: 1px solid rgba(128, 128, 128, 0.3);
-    }
-
-    .nav-item:hover {
-        color: #191916;
-    }
-
-    .main-stories .row {
-        width: 95%;
-        margin: auto;
-    }
-
-    .logo1 {
-        text-align: center;
-    }
-
-    .download-main {
-        display: flex;
-        text-align: center;
-    }
-
-    .row{
-        margin: 5px 10px;
+    .container .card{
+        height: 415px;
     }
 
 }
 
-@media only screen and (max-width: 769px) and (min-width: 426px) {
-    h1 {
+@media only screen and (max-width: 769px) and (min-width: 426px){
+    h1{
         text-align: left;
         margin-left: 20%;
     }
