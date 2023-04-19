@@ -51,6 +51,14 @@ body {
 
 /* nav bar end */
 
+img{
+  width: 90px;
+}
+
+/* h2{
+  margin: 2%;
+} */
+
 .main-signup {
   margin: 0px;
   padding: 0px;
@@ -214,23 +222,23 @@ label {
 }
 
 .label-name {
-  bottom: 71%;
+  bottom: 65.9%;
 }
 
 .label-email {
-  bottom: 61.5%;
+  bottom: 57.2%;
 }
 
 .label-password {
-  bottom: 51.5%;
+  bottom: 48.5%;
 }
 
 .label-password-login {
-  bottom: 61%;
+  bottom: 57%;
 }
 
 .label-email-login {
-  bottom: 71%;
+  bottom: 66%;
 }
 
 input:focus~.label-name,

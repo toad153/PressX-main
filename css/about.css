@@ -45,6 +45,7 @@ section::after {
     height: 100%;
     background: #47aafa;
     clip-path: circle(35% at 0% 100%);
+    z-index: -10;
 }
 
 .container {
