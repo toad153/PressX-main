@@ -74,7 +74,7 @@ body {
 
 .heading {
   color: #f6df0f;
-  font-size: 48px;
+  font-size: 72px;
   font-weight: 900;
 }
 
@@ -390,10 +390,6 @@ body {
   font-size: 76px;
 }
 
-.heading {
-  font-weight: 900;
-  font-size: 320%;
-}
 
 .headingApp {
   font-weight: 700;
