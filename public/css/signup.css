@@ -222,23 +222,23 @@ label {
 }
 
 .label-name {
-  bottom: 65.9%;
+  bottom: 67.9%;
 }
 
 .label-email {
-  bottom: 57.2%;
+  bottom: 59.2%;
 }
 
 .label-password {
-  bottom: 48.5%;
+  bottom: 50.5%;
 }
 
 .label-password-login {
-  bottom: 57%;
+  bottom: 59%;
 }
 
 .label-email-login {
-  bottom: 66%;
+  bottom: 68%;
 }
 
 input:focus~.label-name,
