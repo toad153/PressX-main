@@ -530,7 +530,6 @@ p {
   height: auto;
 }
 
-
 .tryCircle1 {
   border-radius: 50%;
   position: absolute;
@@ -538,8 +537,8 @@ p {
   z-index: -1;
   height: 350px;
   width: 350px;
-  top: -20%;
-  left: 15%;
+  top: -25%;
+  left: 25%;
 }
 
 .tryCircle2 {
@@ -560,7 +559,7 @@ p {
   z-index: -1;
   height: 350px;
   width: 350px;
-  top: 80%;
+  top: 65%;
   right: -5%;
 }
 
@@ -582,8 +581,8 @@ p {
   z-index: -1;
   height: 300px;
   width: 300px;
-  top: 75%;
-  left: 4%;
+  top: 70%;
+  left: 7%;
 }
 
 .main-try * {
@@ -1027,22 +1026,9 @@ p {
     padding: 10px;
   }
 
-  .headingUs {
-    color: #000;
-    text-align: center;
-    padding: 3%;
-    font-weight: 900;
-    font-size: 62px;
-  }
-
   .headingApp {
-    font-size: 42px;
+    font-size: 50px;
   }
-
-.paraApp {
-    font-size: 22px;
-    font-weight: 400;
-}
 
   .choose_us-main img {
     display: block;
@@ -1339,7 +1325,7 @@ p {
     z-index: -1;
     height: 200px;
     width: 200px;
-    top: 76%;
+    top: 65%;
     right: -10%;
   }
 
@@ -1350,7 +1336,7 @@ p {
     z-index: -1;
     height: 150px;
     width: 150px;
-    top: 65%;
+    top: 55%;
     left: -5%;
   }
 
@@ -1359,8 +1345,8 @@ p {
     position: absolute;
     background: #f6df0fed;
     z-index: -1;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     top: 90%;
     left: 7%;
   }
