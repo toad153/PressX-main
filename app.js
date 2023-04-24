@@ -23,6 +23,10 @@ app.get("/about", function (req, res) {
     res.sendFile(__dirname + "/about.html");
 });
 
+app.get("/howitworks", function (req, res) {
+    res.sendFile(__dirname + "/howitworks.html");
+});
+
 
 app.get("/contact", function (req, res) {
     res.sendFile(__dirname + "/contactUs-main.html");
