@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 html{
@@ -133,52 +135,59 @@ html{
 
 .circle {
   /* height: 750px; */
-  width: 100vw;
+  margin: 2%;
+  padding: 2%;
+  width: 99vw;
   position: absolute;
 }
 
 .circle1, .circle2, .circle3, .circle4, .circle5 {
   position: absolute;
-  background-color: #f6df0f;
+  background: #f6df0f31;
   border-radius: 50%;
 }
 
 .circle1 {
-  height: 10rem;
-  width: 10rem;
+  height: 25rem;
+  width: 25rem;
   left: 10rem;
-  top: -137rem
+  top: -150rem;
+  z-index: -5;
 }
 
 .circle2 {
-  height: 10rem;
-  width: 10rem;
-  top: -155rem;
-  left: 70rem;
+  height: 25rem;
+  width: 25rem;
+  top: -160rem;
+  left: 60rem;
+  z-index: -5;
 }
 
 .circle3 {
-  height: 10rem;
-  width: 10rem;
+  height: 25rem;
+  width: 25rem;
   top: -100rem;
-  left: 55rem;
+  left: 45rem;
+  z-index: -5;
 }
 
 .circle4 {
-  height: 10rem;
-  width: 10rem;
+  height: 25rem;
+  width: 25rem;
   top: -75rem;
-  left: 25rem;
+  left: 10rem;
+  z-index: -5;
 }
 
 .circle5 {
-  height: 10rem;
-  width: 10rem;
+  height: 25rem;
+  width: 25rem;
   top: -50rem;
-  left: 80rem;
+  left: 60rem;
+  z-index: -5;
 }
 
-@media(max-width: 790px){
+@media(max-width: 769px){
   .wrapper .center-line{
     left: 40px;
   }
@@ -194,15 +203,23 @@ html{
   .row-1 section .icon{
     left: -60px;
   }
+
+  .circle1, .circle2, .circle3, .circle4, .circle5 {
+    display: none;
+  }
 }
-@media(max-width: 440px){
+
+@media(max-width: 426px){
   .wrapper .center-line,
   .row section::before,
   .row section .icon{
     display: none;
   }
   .wrapper .row{
-    margin: 10px 0;
+    margin: 50px 0;
+  }
+  .circle1, .circle2, .circle3, .circle4, .circle5 {
+    display: none;
   }
 }
 
