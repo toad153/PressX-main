@@ -488,6 +488,8 @@ p {
 .text p {
   font-weight: 400;
   font-size: 20px;
+  text-align: justify;
+  padding: 0% 1%;
 }
 
 /* stories end */
